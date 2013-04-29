@@ -1,0 +1,97 @@
+#registration {
+    background-color: #B40001;
+    color: #ffffff;
+}
+
+#search-bar {
+    float: left;
+}
+
+.section-title {
+    float: left;
+    padding-left: 7px
+}
+
+.section-button {
+    float: right;
+    background-color: #B40001;
+    padding: 10px;
+}
+
+.section-button-a {
+    color: #ffffff
+}
+
+.presentation {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.presentation-title {
+    color: #4F5961;
+    text-align: center;
+}
+
+#speaker {
+    background-color: #4F5962;
+}
+
+.speaker-title {
+    color: #FFFFFF;
+}
+
+.speaker-name {
+    text-align: center;
+    color: #ffffff;
+    background-color: #B40001;
+    margin-bottom: 0;
+    padding: 2px
+}
+
+.speaker-job {
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    padding: 2px
+}
+
+.latest-news-title {
+    color: #B40001;
+}
+
+.latest-news-card {
+    background-color: #ffffff;
+}
+
+.latest-news-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    height: 240px;
+}
+
+.latest-news-date {
+    color: #B40001;
+    font-size: 11px
+}
+
+.latest-news-slide-control {
+    margin: auto;
+    text-align: center
+}
+
+.parthers-title {
+    color: #4F5962;
+}
+
+.hr {
+    border-color: #EBEBEB;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}
+
+body {
+    background-color: #F4F4F4;
+}
