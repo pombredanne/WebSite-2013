@@ -2,11 +2,13 @@
 <html>
 <head>
   <title>Open World Forum</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/stylesheet.css" rel="stylesheet">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet'
+        type='text/css'>
   <meta charset="UTF-8">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">
 </head>
 <body>
 <div>
@@ -14,22 +16,51 @@
   <header>
     <div style="float: right">
       <div id="search-bar" class="navbar">
-        <span class="pull-left"
-              style="text-align: center; padding: 10px; background-color: #B40001; font-size: 16px; color: #ffffff"><b>Newsletter</b></span>
-        <ul class="nav">
-          <li><a href="#facebook">Facebook</a></li>
-          <li><a href="#twitter">Twiter</a></li>
-          <li><a href="#linkedin">Linkedin</a></li>
-          <li><a href="#l">L?</a></li>
-          <li><a href="#rss">RSS</a></li>
+        <div id="newsletter-button">
+          <img id="newsletter-img" width="25px" height="25px" src="pictures/1366984852_White_Email.png">
+
+          <div id="newsletter-title-div">
+            <span id="newsletter-title"><b>Newsletter</b></span>
+          </div>
+        </div>
+        <ul class="nav" style="background-color: #4F5962; margin-left: 8px">
+          <li>
+            <a class="share-a" href="#facebook">
+              <img src="pictures/1366984111_picons06.png" width="18px" height="18px"/>
+            </a>
+          </li>
+          <li>
+            <a class="share-a" href="#twitter">
+              <img src="pictures/1366984104_picons03.png" width="23px" height="23px"/>
+            </a>
+          </li>
+          <li>
+            <a class="share-a" href="#linkedin">
+              <img src="pictures/1366984119_picons11.png" width="18px" height="18px"/>
+            </a>
+          </li>
+          <li>
+            <a class="share-a" href="#l">
+              <img src="pictures/Calque%202.png" width="15px" height="17px"/>
+            </a>
+          </li>
+          <li>
+            <a class="share-a" href="#rss">
+              <img src="pictures/1366984127_picons20.png" width="18px" height="18px"/>
+            </a>
+          </li>
         </ul>
         <form class="navbar-form pull-right">
-          <input type="text" class="search-query" placeholder="Search">
+          <div id="search-div">
+            <img id="search-img" src="pictures/MagnifyingGlass.png" width="16px" height="16px"/>
+            <input id="search-input" type="text"/>
+            <span id="search-button">Search</span>
+          </div>
         </form>
       </div>
     </div>
 
-    <div class="navbar" style="float: right;">
+    <div class="navbar" style="float: right; background-color: #ffffff">
       <ul class="nav">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
