@@ -431,13 +431,16 @@
 </footer>
 </body>
 <script>
-  $('#carousel-button1').click(function(e) {
-    $('#carousel-button-img1').attr('src', 'pictures/ellipse-red.png');
-    $('#carousel-button-img2').attr('src', 'pictures/ellipse-grey.png');
-  })
-  $('#carousel-button2').click(function(e) {
-    $('#carousel-button-img1').attr('src', 'pictures/ellipse-grey.png');
-    $('#carousel-button-img2').attr('src', 'pictures/ellipse-red.png');
+  $('#myCarousel').bind("slide", function() {
+    var img1 = $('#carousel-button-img1');
+    var img2 = $('#carousel-button-img2');
+    if (img1.attr('src') == 'pictures/ellipse-red.png') {
+      img1.attr('src', 'pictures/ellipse-grey.png');
+      img2.attr('src', 'pictures/ellipse-red.png');
+    } else {
+      img1.attr('src', 'pictures/ellipse-red.png');
+      img2.attr('src', 'pictures/ellipse-grey.png');
+    }
   })
 </script>
 </html>
