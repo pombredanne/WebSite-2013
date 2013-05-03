@@ -201,6 +201,7 @@ body {
     color: #4F5961;
     text-align: center;
     margin-bottom: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #speaker {
@@ -238,6 +239,7 @@ body {
 
 #latest-news-div {
     background-color: #F4F4F4;
+    padding-bottom: 30px;
 }
 
 .latest-news-title {
@@ -269,8 +271,73 @@ body {
     text-align: center
 }
 
-.parthers-title {
+.latest-news-slide-control a {
+    padding: 4px;
+}
+
+#partners {
+    margin-bottom: 60px;
+}
+
+.partners-title {
     color: #4F5962;
+}
+
+.partners-span {
+    margin-left: 45px;
+}
+
+#rd-productif {
+    display: block;
+    margin: 23px auto 0 auto;
+}
+
+#iledefrance {
+    margin: 10px 5px;
+    display: block;
+    float: left;
+}
+
+#institutionnels {
+    margin-left: 80px;
+}
+
+#institutionnels img {
+    margin: 5px;
+}
+
+#alterway {
+    margin-top: 20px;
+}
+
+.organisateur-img {
+    margin: 10px;
+    float: left;
+}
+
+.sponsor-img {
+    margin: auto;
+}
+
+#suse {
+    margin-top: 20px;
+    display: block;
+}
+
+#platinium img {
+    margin: 8px 5px;
+}
+
+#blackduck {
+    margin: 15px;
+}
+
+#xwiki {
+    margin-left: 18px;
+}
+
+#jamento {
+    margin-left: 13px;
 }
 
 .hr {
