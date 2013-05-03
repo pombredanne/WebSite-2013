@@ -195,6 +195,8 @@ body {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4em;
 }
 
 .domain-title {
@@ -258,17 +260,36 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
-    height: 240px;
+    height: 332px;
+}
+
+.latest-news-content h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.3em;
+    color: #525252;
+
+}
+
+.latest-news-content p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #525252;
+    margin-top: 10px;
 }
 
 .latest-news-date {
     color: #B40001;
-    font-size: 11px
+    font-size: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .latest-news-slide-control {
     margin: auto;
-    text-align: center
+    text-align: center;
 }
 
 .latest-news-slide-control a {
@@ -285,6 +306,11 @@ body {
 
 .partners-span {
     margin-left: 45px;
+}
+
+.partners-sub-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
 }
 
 #rd-productif {
@@ -338,6 +364,92 @@ body {
 
 #jamento {
     margin-left: 13px;
+}
+
+#footer-links {
+    width: 277px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footer-links a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}
+
+#footer-button {
+    width: 276px;
+    padding: 0;
+    text-align: center;
+    margin: 17px 0 0;
+}
+
+#edition-pre {
+    width: 251px;
+    height: 69px;
+    background: #2C3237 url("../pictures/backward.png") no-repeat 10px center;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#edition-pre a {
+    /*margin: auto;*/
+    display: block;
+    margin-right: 15px;
+    padding-top: 23px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.2em;
+    color: #FFFFFF;
+
+}
+
+#contact {
+    width: 251px;
+    height: 69px;
+    background: #B30000 url("../pictures/mail.png") no-repeat 10px center;
+    text-align: right;
+}
+
+#contact a {
+    display: block;
+    margin-right: 15px;
+    padding-top: 23px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.2em;
+    color: #FFFFFF;
+}
+
+#application {
+    width: 313px;
+    height: 208px;
+    margin: 0 0 0 18px;
+
+    padding: 0;
+    background: url("../pictures/phone.png") no-repeat right center;
+}
+
+#application-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 2.6em;
+    line-height: 0.7em;
+    color: #FFFFFF;
+}
+
+#application-sub-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.6em;
+    color: #FFFFFF;
+}
+
+#application-content {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.6em;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .hr {
