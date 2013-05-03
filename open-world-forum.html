@@ -54,7 +54,7 @@
     </li>
     <li class="share-a">
       <a href="#l">
-        <img src="pictures/Calque%202.png" width="15px" height="17px"/>
+        <img src="pictures/Calque2.png" width="15px" height="17px"/>
       </a>
     </li>
     <li class="share-a">
@@ -312,9 +312,9 @@
       </div>
     </div>
     <div class="container">
-      <div class="latest-news-slide-control">
-        <a href="#myCarousel" data-slide-to="0"><img src="pictures/ellipse-red.png"/></a>
-        <a href="#myCarousel" data-slide-to="1"><img src="pictures/ellipse-grey.png"/></a>
+      <div id="carousel-control" class="latest-news-slide-control">
+        <a id="carousel-button1" href="#myCarousel" data-slide-to="0"><img id="carousel-button-img1" src="pictures/ellipse-red.png"/></a>
+        <a id="carousel-button2" href="#myCarousel" data-slide-to="1"><img id="carousel-button-img2" src="pictures/ellipse-grey.png"/></a>
       </div>
     </div>
   </div>
@@ -359,7 +359,7 @@
               <img src="pictures/Smile_logoSponsor.png"/>
             </div>
             <div>
-              <img id="alterway" class="organisateur-img" src="pictures/logo_aw_rvb%20copie.png"/>
+              <img id="alterway" class="organisateur-img" src="pictures/logo_aw_rvb_copie.png"/>
               <img class="organisateur-img" src="pictures/af83_logoSponsor.png"/>
             </div>
           </div>
@@ -373,7 +373,7 @@
         </div>
         <div id="platinium" class="span2">
           <p class="partners-sub-title">Sponsor Platinium</p>
-          <img class="sponsor-img" src="pictures/logo_aw_rvb%20copie.png"/>
+          <img class="sponsor-img" src="pictures/logo_aw_rvb_copie.png"/>
           <img class="sponsor-img" src="pictures/Smile_logoSponsor2.png"/>
           <img class="sponsor-img" src="pictures/Microsoft_logoSponsor.png"/>
         </div>
@@ -430,4 +430,14 @@
   </div>
 </footer>
 </body>
+<script>
+  $('#carousel-button1').click(function(e) {
+    $('#carousel-button-img1').attr('src', 'pictures/ellipse-red.png');
+    $('#carousel-button-img2').attr('src', 'pictures/ellipse-grey.png');
+  })
+  $('#carousel-button2').click(function(e) {
+    $('#carousel-button-img1').attr('src', 'pictures/ellipse-grey.png');
+    $('#carousel-button-img2').attr('src', 'pictures/ellipse-red.png');
+  })
+</script>
 </html>
